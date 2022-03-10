@@ -313,6 +313,16 @@
                     <div class="column right">
                         <div class="text">Írj nekünk</div>
                         <form action="https://formsubmit.co/cbf9ada2123f2290884bbca89bcc8099" method="POST">
+
+                            <!-- nemvokrobot + honeypot -->
+
+                            <input type="text" name="_honey" style="display: none;">
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <!-- sikeres elküldés -->
+
+                            <input type="hidden" name="_next" value="https://waldmannl.github.io/zoli/">
+
                             <div class="fields">
                                 <div class="field name">
                                     <input type="text" name="Neve" placeholder="Név" required>
